@@ -1,0 +1,5 @@
+# Start the Streamlit application
+.\.venv\Scripts\python -m streamlit run app.py
+
+# Scrape and update 5-year 6/58 draw cache from PCSO portal
+.\.venv\Scripts\python save_5yr_658_cache.py
